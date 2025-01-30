@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samaritan’s Hand</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f1e4;
+            color: #333;
+        }
+        header {
+            background: #2C3E50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #1A252F;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #f1c40f;
+        }
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px;
+            background: white;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 15px;
+            margin: 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        button {
+            background: #1A252F;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #f1c40f;
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2C3E50;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Samaritan’s Hand
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#submit">Submit Your Need</a>
+        <a href="#testimonies">Testimonies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        Helping the Unseen and Unheard Find Hope
+    </section>
+    <div id="about" class="container">
+        <h2>About Us</h2>
+        <p>Samaritan’s Hand is dedicated to helping those in need by offering assistance, hope, and encouragement.</p>
+    </div>
+    <div id="submit" class="container">
+        <h2>Submit Your Need</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Describe Your Need" rows="5" required></textarea>
+            <button type="submit">Submit Request</button>
+        </form>
+    </div>
+    <div id="testimonies" class="container">
+        <h2>Testimonies</h2>
+        <p>Stories of those we’ve helped will be shared here.</p>
+    </div>
+    <div id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email: contact@samaritanshand.org</p>
+    </div>
+    <footer>
+        &copy; 2024 Samaritan’s Hand. All Rights Reserved.
+    </footer>
+</body>
+</html>
